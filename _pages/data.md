@@ -2,8 +2,8 @@ permalink: /data/
 title: "Public CCSNe Data"
 author_profile: true
 redirect_from: 
-  - /md/
-  - /markdown.html
+  - /data/
+  - /data.html
 ---
 
 We include some of our publicly available data here.

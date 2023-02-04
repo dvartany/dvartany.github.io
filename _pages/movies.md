@@ -5,6 +5,5 @@ author_profile: true
 
 ---
 
-<video width="320" height="240" controls>
-  <source src="gwstrain_M13_SFHo_rotating.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/6024155/216761140-c52c9b3c-9ccb-4f51-b3f7-f9cdf6db29c1.mp4
+

@@ -15,6 +15,11 @@ author_profile: true
 </video>
 
 <video width="320" height="240" controls>
+  <source src="gwstrain_M13_SFHo_rotating.mp4" type="video/mp4">
+</video>
+
+
+<video width="320" height="240" controls>
   <source src="https://github.com/dvartany/dvartany.github.io/blob/master/movies/Ye_2.mp4" type="video/mp4">
 </video>
 
@@ -26,3 +31,4 @@ author_profile: true
 
 ![movie](https://github.com/dvartany/dvartany.github.io/blob/master/movies/Ye_2.mp4)
 ![movie](https://github.com/dvartany/dvartany.github.io/blob/master/movies/gwstrain_M13_SFHo_rotating.mp4)
+![movie](gwstrain_M13_SFHo_rotating.mp4)

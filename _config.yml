@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dr. David Vartanyan"
+title                    : "David Vartanyan"
 title_separator          : "-"
 name                     : &name "David Vartanyan"
 description              : &description "Einstein Fellow at Carnegie Observatories"

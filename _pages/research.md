@@ -7,4 +7,4 @@ redirect_from:
 ---
 
 
-Please find my full publication list at [NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/xqvnu4usRFWixyvcxZeH6A)
+Please find my full publication list at [NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/xqvnu4usRFWixyvcxZeH6A).

@@ -1,22 +1,21 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Research"
+    url: /research/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Movies"
+    url: /movies/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Science in Motion"
+    url: /motion/
+    
+  - title: "Public CCSNe Data"
+    url: /data/
         
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+#   - title: "Guide"
+#     url: /markdown/

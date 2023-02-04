@@ -14,8 +14,8 @@ main:
     url: /data/
         
     
-  - title: "CV"
-    url: /cv/
+#   - title: "CV"
+#     url: /cv/
     
 #   - title: "Guide"
 #     url: /markdown/

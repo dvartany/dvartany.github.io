@@ -1,3 +1,4 @@
+---
 permalink: /data/
 title: "Public CCSNe Data"
 author_profile: true

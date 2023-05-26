@@ -1,0 +1,6 @@
+We provide neutrino data for 100 2D simulations using Fornax. This data release is for a paper in preparation.
+
+For each model, we include 3 files, nustat.{}.dat, where the brackets range from 0-2 indicating neutrino species (0=electron neutrino, 1=electron antineutrino, 2=bundled four 'heavy' neutrinos). These files have five columns, labeled time, neutrino luminosity, average neutrino energy, RMS neutrino energy, and skew neutrino energy. The energies are in MeV, and the luminosity is in 10^(75) erg s ^-1). The values are calculated at 500 km. Note that, when looking at the neutrino luminosity per 'heavy' neutrino, the column value is divided by 4.
+
+
+Please reach out with any questions to David Vartanyan at dvartanyan@carnegiescience.edu

@@ -1,6 +1,0 @@
-trim_data.zip filter=lfs diff=lfs merge=lfs -text
-BH.zip filter=lfs diff=lfs merge=lfs -text
-gwstrain.zip filter=lfs diff=lfs merge=lfs -text
-high_mass.zip filter=lfs diff=lfs merge=lfs -text
-low_mass.zip filter=lfs diff=lfs merge=lfs -text
-quadrupole.zip filter=lfs diff=lfs merge=lfs -text

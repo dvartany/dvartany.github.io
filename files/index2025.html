@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+   <TITLE>CCSN Neutrino Signals</TITLE>
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#ffffff" LINK="#0000FF" VLINK="#CC1A8B" ALINK="#FF0000">
+
+<CENTER><B><U><FONT COLOR="#0000FF"><FONT SIZE=+2>Neutrino Emissions from 25 3D Models of Core-Collapse Supernovae to late times</FONT></FONT></U></B></CENTER>
+
+<br>
+<br><p>
+
+<center>
+<P><B><FONT COLOR="#AB0000"><a href="./">All 3D luminosity spectra and evolution files (at 500 km)</a></FONT></B>
+</center>
+<p>
+
+We supernova neutrino data for 25 3D simulations to late times using Fornax. Included are mostly solar-metallicity progenitor models 
+from 9 to 100 solar masses from 1) Sukhbold et al. 2016, 2018; 2) private correspondence with Alexander Heger for models 
+u8.1 (10<sup>-4</sup> metallicity) and z9.6 (zero metallicity); and 3) private correspondence with Stan Woosley for the 100 
+solar mass, tenth solar-metallicity model. Of these 25 models,  2 (12.25 and 14) fail to explode 
+and the 100 inaugurates explosion, only later to fail. These simulations were published in 
+<a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...12C/abstract">Gravitational-wave and Gravitational-wave Memory Signatures of Core-collapse Supernovae</a>,
+ <a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...964L..16B/abstract">Physical Correlations and Predictions Emerging from Modern Core-collapse Supernova Theory</a>,
+and <a href="https://ui.adsabs.harvard.edu/abs/2023PhRvD.107j3015V/abstract">Gravitational-wave Signature of Core-collapse Supernovae</a>.
+
+<p>
+We had previously published supernova neutrino data in <a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.526.5900V/abstract">Neutrino Signatures of 100 2D Axisymmetric Core-Collapse Supernova Simulations</a>, <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506.1462N/abstract">Supernova Neutrino Signals based on Long-term Axisymmetric Simulations</a>,
+and <a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500..696N/abstract">Core-collapse Supernova Neutrino Emission and Detection informed by State-of-the-art Three-dimensional Numerical Models</a>.
+
+<p>
+
+<p>
+First, we provide angle-averaged, energy-integrated neutrino data for each model for each species in the directory <a href="https://f669dfe4-5008-429c-8aa5-16365fc454f2.usrfiles.com/archives/f669df_39d7f3bbbac84595b3dd7e9816b82dc4.zip"> <em>nustat</em></a>. These files (of the form {}_nustat.{}.dat, where, e.g., 11_nustat_0.dat contains the data for model 11, electron neutrinos, as above) have five columns, labeled time (after bounce), neutrino luminosity, average neutrino energy, RMS neutrino energy, and skew neutrino energy. The energies are in MeV and the luminosities are in 10<sup>75</sup> erg s<sup>-1</sup>. Importantly, we also include in the directory  <a href="https://f669dfe4-5008-429c-8aa5-16365fc454f2.usrfiles.com/archives/f669df_55187967994143ccb325da67f251292d.zip"> <em>nuspec</em></a> angle-averaged spectral luminosities for each model and each species. For each time, the files (of the form {}_nuspec.{}.xg, e.g., 11_nuspec.0.xg, as above) provide the neutrino bin center energies (12 bins) and the corresponding spectra (in 10<sup>75</sup> erg MeV<sup>-1</sup> s<sup>-1</sup>).
+
+<p>
+
+Next, we provide the full set of angle-dependent supernova neutrino data for the 25 models through 10 files on Zenodo, with the masses indicated in M<sub>&#9737</sub>. The 10 files are: <a href="https://zenodo.org/records/14401802"> <em>low_mass.zip</em></a> (u8.1, z9.6, 9a, 9b, 9.25, and 9);  <a href="https://zenodo.org/records/14397745"> <em>intermediate_mass0.zip</em></a> (11, 12.25, 14.43); <a href="https://zenodo.org/records/14397755"> <em>intermediate_mass1.zip</em></a> (15.01, 16, 16.5); <a href="https://zenodo.org/records/14397761"> <em><a>high_mass0.zip</em></a> (17, 18.5); in place of high_mass1.zip, we have two files because of the large file size: <a href="https://zenodo.org/records/14751159"> <em>18</em></a> and <a href="https://zenodo.org/records/14751155"> <em>19</em></a>; <a href="https://zenodo.org/records/14397777"> <em>high_mass2.zip</em></a> (19.56, 20); <a href="https://zenodo.org/records/14401631"> <em>high_mass3.zip</em></a> (21.68, 23); <a href="https://zenodo.org/records/14400123"> <em>high_mass4.zip</em></a> (24, 25); and <a href="https://zenodo.org/records/14518303"> <em>high_mass5.zip</em></a> (40, 60, 100). For each model, we include an hdf5 file ({}_lum_eg_angle_i_r500.h5) that includes the lab frame angle- and energy-dependent spectral luminosity (in 10<sup>75</sup> erg/s/MeV/steradian, using this large number for a convenient normalization) at 500 km. We also provide  <a href="https://drive.google.com/file/d/1YQYHpBW3v1ojrRz6dD45Kktw92vYMGde/view?usp=sharing"> <em>grid_dOmega.h5</em></a> (identical for all models) that contains the solid-angle gridding to integrate over and the grid angular geometry in radians, specifying each viewing angle/direction. We include a sample script, <a href=https://drive.google.com/file/d/1R3IBhFcQ0Y0H1GkcDiohOKqtUXdeGPFP/view?usp=sharing"> <em>nu_reader.py</em></a> to read and visualize the data. 
+<p>
+Each hdf5 file contains 3 groups, for each neutrino species (nu0, nu1, nu2, where 0 = electron neutrino, 1 = electron antineutrino, 2 = bundled four 'heavy' neutrino species), and each neutrino species group contains a group for each checkpoint time as well as the comoving frame neutrino energy bin width. Each checkpoint collection contains a dataset of 128x256 angle-dependent spectral luminosities defined as above, as well as the lab-frame neutrino energy bin centers and widths. To plot the luminosity for each of the `heavy'-species, simply divide by 4.
+
+<p>
+<p>
+
+
+Please reach out with any questions to David Vartanyan at dvartanyan@carnegiescience.edu or Adam Burrows 
+at burrows@astro.princeton.edu
+
+
+<div dir="ltr"><div dir="ltr"><div dir="ltr"><div dir="ltr"><div dir="ltr"><div dir="ltr"><div dir="ltr"><div class="gmail-page" title="Page 2"><div class="gmail-layoutArea"><div class="gmail-column"><p style="color:rgb(0,0,0)"><span style="font-size:10pt;font-family:CMR10">
+
+
+<p>
+
+
+
+<hr>
+
+<br><br>
+
+</body>
+</html>

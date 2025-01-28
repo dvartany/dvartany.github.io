@@ -15,3 +15,5 @@ Find the neutrino memory data [here](https://f669dfe4-5008-429c-8aa5-16365fc454f
 
 For our neutrino signatures for 100 2D models, see [here](https://f669dfe4-5008-429c-8aa5-16365fc454f2.usrfiles.com/archives/f669df_e6e13d5121db40dc9b1f32f5377a6009.zip). The data is summarized in this [README](http://dvartany.github.io/files/README-2D-neutrino.txt). 
 
+We also make public all 3D luminosity spectra and evolution files as of 2025. The data is summarized, with links, here [README:2025 Neutrino Data](http://dvartany.github.io/files/index2025.html). 
+
